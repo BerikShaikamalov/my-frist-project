@@ -1,0 +1,164 @@
+/* Навигация */
+nav{
+	font-size: 25px;
+	clear: both;
+	height: 50px;
+	width: 1000px;
+	text-align: center;	
+}
+nav ul{
+	margin: 0;
+	padding: 5px 0px 5px 30px;
+}
+nav li{
+	display: inline;
+	margin-right: 40px;
+	
+}
+nav li a{
+	color: #da0e0e;
+}
+nav a:hover{
+	background: #ff00bf;
+	color: #ffc107;
+}
+
+
+
+div.my-list > div{
+	width: 33%;
+	float: left;
+}
+
+
+/* BLOCK: Short Information */
+div.short-info-container{
+	width: 1000px;
+	height:auto;
+	border: 2px solid red;
+	overflow: hidden;
+	display: flex;
+	margin: 0 auto;
+}
+
+div.short-info-container > div{
+		
+}
+
+/* LEFT */
+div.short-info-container > div.sic-left{
+	width: 400px;
+	display: flex;
+	background-color: #ffc107;
+}
+
+/* Avatar */
+div.short-info-container > div.sic-left > .avatar{
+	width: 150px;
+}
+
+div.short-info-container > div.sic-left > .avatar > a > img{
+	width: 100%;
+}
+
+/* Data */
+div.short-info-container > div.sic-left > .data{
+	width: 250px;
+}
+
+/* RIGHT */
+div.short-info-container > div.sic-right{
+	width: 600px;
+	background-color: 	#00bfff;
+}
+
+/* BLOCK:Biography */
+div.biography{
+	width: 1000px;
+	height:auto;
+	border: 2px solid green;
+	margin: auto;
+	overflow:hidden;
+	display: flex;
+	align-items: center;
+}
+h2.ssyl{color:#ff00bf;text-align: center}
+
+/* Block: List */
+div.my-list{
+	width: 1000px;
+	height: auto;
+	margin: auto;
+	border: 2px solid black;
+	display: flex
+}
+/* Block: List 2nd */
+div.my-list2{
+	width: 1000px;
+	height: auto;
+	margin: auto;
+	display: flex;
+	align-items: center;
+	border: 2px solid black;
+	background:#ffcccc;
+}
+div.my-list2 h3{text-align: center;color: crimson;}
+
+/* Block: Table */
+div.table{
+width: 1000px;
+height: auto;
+margin: auto;
+border: 2px solid slateblue;
+display: flex;
+}
+.tf{
+	color: royalblue;
+	text-align: center;
+}
+
+
+/* Images border */
+div.border-img{
+	margin: auto;
+	width:1000px;
+	height: auto;
+	border:2px #000080;
+	display:flex;
+	}
+/* use picture */
+.image-pro{
+margin: 0 auto;
+text-align: center;
+border: 2px solid red;
+width: 1000px;
+display: block;
+}
+
+/* use iframe */
+div.iframe{
+	margin: auto;
+	width: 1000px;
+	height: auto;
+	border: 2px solid gray;
+	display: block;
+	text-align: center;
+}
+
+div.form{
+	margin: auto;
+	width: 1000px;
+	height: auto;
+	border: 2px solid gray;
+	display: block;
+	text-align: center;
+	vertical-align: middle;
+}
+
+#help{text-align:right; color:#000080; font-style:italic;}  
+	
+h1 {color:#00BFFF;border-style:none;text-align:center; padding: 0px}; 
+
+	abbr{border-bottom: 1px dashed blue;  color:#00BFFF;}
+
+#cc{text-align: right;color:white; font-style: italic;}
